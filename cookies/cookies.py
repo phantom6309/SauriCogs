@@ -284,7 +284,7 @@ class Cookies(commands.Cog):
 
     @commands.command()
     @commands.guild_only()
-    async def leaderboard(self, ctx: commands.Context):
+    async def cleaderboard(self, ctx: commands.Context):
         """Display the server's cookie leaderboard."""
         ids = await self._get_ids(ctx)
         lst = []
